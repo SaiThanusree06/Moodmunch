@@ -73,7 +73,7 @@ data = [
     '270 kcal per skewer',
     'Marinate paneer and grill on skewers.',
     'https://youtu.be/BwIJHI4KdIE?si=37tSjb47eOxmnEdQ',
-    'https://images.pexels.com/photos/11874397/pexels-photo-11874397.jpeg',
+    'https://images.pexels.com/photos/3928854/pexels-photo-3928854.png',
     'happy'
 ),
 (
@@ -297,7 +297,7 @@ data = [
     '350 kcal per cake',
     'Bake cake with molten chocolate core.',
     'https://www.youtube.com/embed/1AP0HqG8JjU',
-    'https://images.pexels.com/photos/4109990/pexels-photo-4109990.jpeg',
+    'https://images.pexels.com/photos/5163948/pexels-photo-5163948.jpeg',
     'excited'
 ),
 (
@@ -317,7 +317,7 @@ data = [
     '420 kcal per serving',
     'Heat brownie on sizzler plate, top with ice cream and sauce.',
     'https://youtu.be/ngDqanR_1iU?si=8qvPolDSyTdVE6_X',
-    'https://images.pexels.com/photos/1239330/pexels-photo-1239330.jpeg',
+    'https://images.pexels.com/photos/5386671/pexels-photo-5386671.jpeg',
     'excited'
 ),
 (
