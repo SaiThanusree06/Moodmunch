@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendation Result</title>
+    <style>
+        body{
+            background-image: url('https://images.pexels.com/photos/4199098/pexels-photo-4199098.jpeg');
+        }
+        .card {
+            background-color: rgba(0,0,0,0.6);
+            padding: 15px;
+            margin: 10px;
+            border-radius: 12px;
+            color: white;
+            width: 200px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body style="background-image: url('{{ background_image }}'); background-size: cover; background-repeat: no-repeat; background-position: center; color: white;">
+
+    <h1>Your Mood: {{ mood }}</h1>
+    <h2>We suggest you try these:</h2>
+
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+        {% for food, image in foods %}
+            <div style="width: 200px; background: rgba(0,0,0,0.6); padding: 10px; border-radius: 10px;">
+                <h3>{{ food }}</h3>
+                <img src="{{ image }}" alt="{{ food }}" style="width: 100%; border-radius: 10px;">
+                <a href="{{ url_for('food_detail', food=food) }}">
+                    <button style="margin-top: 10px;">View Details</button>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
